@@ -8,7 +8,7 @@ def my_collect(collection)
       yield new_collection << collection[i].upcase
       i += 1
     end
-    collection
+    new_collection
   else
   end
 end
