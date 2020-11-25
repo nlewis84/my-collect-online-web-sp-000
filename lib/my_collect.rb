@@ -7,6 +7,7 @@ def my_collect(collection)
       yield collection[i].upcase
       i += 1
     end
+    collection
   else
   end
 end
